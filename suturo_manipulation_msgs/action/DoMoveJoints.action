@@ -1,7 +1,7 @@
 # define the goal
 string goal_msg
 geometry_msgs/Pose object_pose
-geometry_msgs/Pose robot_pose
+geometry_msgs/Pose object_pose_to_odom
 float64 weight
 float64 width
 float64 height
