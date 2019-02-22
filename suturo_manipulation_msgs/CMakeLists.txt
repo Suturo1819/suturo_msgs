@@ -50,10 +50,10 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-#add_message_files(
-#  FILES
-#  move_msg.msg
-#)
+add_message_files(
+  FILES
+  move_msg.msg
+)
 
 ## Generate services in the 'srv' folder
 #add_service_files(
@@ -105,7 +105,7 @@ generate_messages(DEPENDENCIES actionlib_msgs geometry_msgs control_msgs)
 catkin_package(
 #  INCLUDE_DIRS include
 #  DEPENDS system_lib
-  CATKIN_DEPENDS message_runtime
+  CATKIN_DEPENDS message_runtime actionlib_msgs geometry_msgs control_msgs
 )
 
 ###########
