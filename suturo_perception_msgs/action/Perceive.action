@@ -1,0 +1,8 @@
+#goal definition
+string pipeline
+---
+#result definition
+ObjectDetectionData[] detectionData
+---
+#feedback
+string feedback
