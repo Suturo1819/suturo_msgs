@@ -6,7 +6,7 @@ import os
 import yaml
 import tf
 import rospkg
-from tf.transformations import euler_matrix
+from tf.transformations import euler_matrix, quaternion_matrix
 import functools
 
 rospack = rospkg.RosPack()
@@ -51,7 +51,7 @@ def write_region_filter_yaml_from_manual():
 
 
 def tf_to_region_matrix (trans, rot, bottom_offset, top_offset):
-    pose = euler_matrix(rot[0], rot[1], rot[2])
+    pose = quaternion_matrix(rot[0], rot[1], rot[2], rot[3])
     pose[0][3] = trans[0]
     pose[1][3] = trans[1]
     pose[2][3] = trans[2] + (top_offset - bottom_offset)/2
