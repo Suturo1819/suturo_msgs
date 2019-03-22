@@ -8,7 +8,7 @@ This action starts a [RoboSherlock](https://github.com/Suturo1819/robosherlock) 
 * **goal:** 
   * `visualization (bool)` Decide whether the [RoboSherlock](https://github.com/Suturo1819/robosherlock) visualization should  be displayed or not.
 * **result:**
-  * `detection_data (Array made from `[ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg) One instance of [ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg) for each observed and recognized object in the scene. 
+  * `detection_data (Array made from `[ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg)`)` One instance of [ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg) for each observed and recognized object in the scene. 
 * **feedback:**
   * `feedback (string)` A string containing information about whether the communcation was successfull or not.
 
@@ -18,7 +18,7 @@ This action starts a [RoboSherlock](https://github.com/Suturo1819/robosherlock) 
 * **goal:** 
   * `visualization (bool)` Decide whether the [RoboSherlock](https://github.com/Suturo1819/robosherlock) visualization should  be displayed or not.
 * **result:**
-  * `detection_data (Array made from `[ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg) One instance of [ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg) for each observed and recognized object in the scene. 
+  * `detection_data (Array made from `[ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg)`)` One instance of [ObjectDetectionData](https://github.com/Suturo1819/suturo_msgs/blob/master/suturo_perception_msgs/msg/ObjectDetectionData.msg) for each observed and recognized object in the scene. 
   * `inliers_visible (bool)` True, if [RoboSherlock](https://github.com/Suturo1819/robosherlock) was able to detect the inliers of the shelf
 * **feedback:**
   * `feedback (string)` A string containing information about whether the communcation was successfull or not.
