@@ -5,6 +5,10 @@ geometry_msgs/Pose object_pose_to_odom
 float64 weight
 float64 width
 float64 height
+float64 depth
+bool top
+bool side_right
+bool side_left
 control_msgs/JointTrajectoryControllerState desired_joints_values
 ---
 # define the result
