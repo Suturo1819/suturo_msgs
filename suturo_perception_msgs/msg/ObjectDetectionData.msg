@@ -4,9 +4,7 @@
 
 string name
 string obj_class 
-float64 confidence 
-string known_obj_class 
-float64 known_obj_confidence 
+float64 confidence
 uint32 shape # and the shape (please, if possible, as fallback if confidence is low). 
 geometry_msgs/PoseStamped pose
 float64 width
