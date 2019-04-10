@@ -11,6 +11,7 @@ float64 width
 float64 height
 float64 depth
 std_msgs/ColorRGBA color
+string region
 
 # Shape values
 uint32 MISC=0
