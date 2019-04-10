@@ -65,6 +65,8 @@ add_action_files(
   FILES
   PerceiveShelf.action
   PerceiveTable.action
+  ExtractObjectInfo.action
+  AnalyzeShelfStatus.action
 )
 
 ## Generate added messages and services with any dependencies listed here
