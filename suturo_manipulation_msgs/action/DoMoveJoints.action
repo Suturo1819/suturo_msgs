@@ -6,9 +6,7 @@ float64 weight
 float64 width
 float64 height
 float64 depth
-bool top
-bool side_right
-bool side_left
+string modus
 control_msgs/JointTrajectoryControllerState desired_joints_values
 ---
 # define the result
